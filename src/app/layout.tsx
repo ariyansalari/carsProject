@@ -21,7 +21,7 @@ export default function RootLayout({
             <TopNavBar />
         </header>
         <main>{children}</main>
-        <footer>
+        <footer >
           <Footer />
         </footer>
       </body>
