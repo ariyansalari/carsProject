@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import { CustomButton } from './partials'
 import Image from 'next/image'
+import { CustomButton } from '@/ui'
 export const Hero = () => {
     const handleScroll=()=>{
 
@@ -15,7 +15,7 @@ export const Hero = () => {
     <p className='hero__subtitle'>
 Stremline your car rental experince with our effortless booking process.
     </p>
-    <CustomButton title={'Explore Cars' } containerStyles='bg-primary-blue text-white rounded-full mt-10' handleClick={handleScroll} />
+    <CustomButton title={'Explore Cars'} containerStyles='bg-primary-blue text-white rounded-full mt-10' handleClick={handleScroll} btnType={'button'} />
 </div>
 <div className='hero__image-container'>
     <div className='hero__image'>

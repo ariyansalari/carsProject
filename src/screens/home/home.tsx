@@ -3,7 +3,7 @@ import { Hero } from './partials';
 
 const HomeScreen = () => {
   return (
-    <div>home
+    <div>
 <Hero/>
     </div>
   )
