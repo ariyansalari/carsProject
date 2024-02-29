@@ -4,7 +4,6 @@ import { useState } from "react"
 import { SearchManufacturer } from ".."
 export const SearchBarHome = () => {
 const [manufacture,setManufacture]=useState<string>('')
-console.log(manufacture);
 
     const handleSearch=()=>{
 
